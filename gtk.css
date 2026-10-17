@@ -1,0 +1,77 @@
+/* Ember Dunes — warm black surfaces with copper-sand accents for GTK 3 / GTK 4. */
+@define-color window_bg_color #0B0907;
+@define-color window_fg_color #E3D7C8;
+@define-color view_bg_color #0B0907;
+@define-color view_fg_color #E3D7C8;
+@define-color headerbar_bg_color #080605;
+@define-color headerbar_fg_color #E3D7C8;
+@define-color headerbar_backdrop_color #080605;
+@define-color headerbar_border_color #4E3424;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.06);
+@define-color sidebar_bg_color #080605;
+@define-color sidebar_fg_color #E3D7C8;
+@define-color sidebar_backdrop_color #080605;
+@define-color sidebar_border_color #4E3424;
+@define-color sidebar_shade_color rgba(0, 0, 0, 0.06);
+@define-color secondary_sidebar_bg_color #080605;
+@define-color secondary_sidebar_fg_color #E3D7C8;
+@define-color secondary_sidebar_backdrop_color #080605;
+@define-color secondary_sidebar_border_color #4E3424;
+@define-color card_bg_color #17120E;
+@define-color card_fg_color #E3D7C8;
+@define-color card_shade_color rgba(0, 0, 0, 0.06);
+@define-color popover_bg_color #17120E;
+@define-color popover_fg_color #E3D7C8;
+@define-color popover_shade_color rgba(0, 0, 0, 0.10);
+@define-color dialog_bg_color #17120E;
+@define-color dialog_fg_color #E3D7C8;
+@define-color thumbnail_bg_color #17120E;
+@define-color thumbnail_fg_color #E3D7C8;
+@define-color accent_bg_color #F2A766;
+@define-color accent_fg_color #0B0907;
+@define-color accent_color #F2A766;
+@define-color destructive_bg_color #EC6A48;
+@define-color destructive_fg_color #0B0907;
+@define-color destructive_color #EC6A48;
+@define-color error_bg_color #EC6A48;
+@define-color error_fg_color #0B0907;
+@define-color error_color #EC6A48;
+@define-color warning_bg_color #F7C77A;
+@define-color warning_fg_color #0B0907;
+@define-color warning_color #F7C77A;
+@define-color success_bg_color #B8C27A;
+@define-color success_fg_color #0B0907;
+@define-color success_color #B8C27A;
+@define-color borders #4E3424;
+@define-color unfocused_borders #4E3424;
+@define-color shade_color rgba(0, 0, 0, 0.08);
+@define-color theme_bg_color #0B0907;
+@define-color theme_fg_color #E3D7C8;
+@define-color theme_base_color #0B0907;
+@define-color theme_text_color #E3D7C8;
+@define-color theme_selected_bg_color #45301F;
+@define-color theme_selected_fg_color #E3D7C8;
+@define-color insensitive_bg_color #17120E;
+@define-color insensitive_fg_color #B0A291;
+@define-color insensitive_base_color #17120E;
+@define-color theme_unfocused_bg_color #0B0907;
+@define-color theme_unfocused_fg_color #B0A291;
+@define-color theme_unfocused_base_color #0B0907;
+@define-color theme_unfocused_text_color #B0A291;
+@define-color theme_unfocused_selected_bg_color #45301F;
+@define-color theme_unfocused_selected_fg_color #E3D7C8;
+@define-color link_color #F2A766;
+@define-color visited_link_color #B0A291;
+
+selection { background-color: #45301F; color: #F3EBE0; }
+button.suggested-action { background-color: #F2A766; color: #0B0907; }
+button.suggested-action:hover { background-color: #F2C9A3; color: #0B0907; }
+button.destructive-action { background-color: #EC6A48; color: #0B0907; }
+
+/* Selected files and list rows: a tint of the accent with normal text, so a
+ * selection doesn't outweigh the files themselves. */
+row:selected, .view:selected, gridview > child:selected,
+columnview > listview > row:selected, iconview:selected, treeview.view:selected {
+  background-color: #45301F;
+  color: #E3D7C8;
+}
